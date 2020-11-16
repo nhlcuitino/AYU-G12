@@ -1,0 +1,1 @@
+!function($){var mpboxes=$(".itemfotos");$.fn.shuffle=function(){var allElems=this.get(),shuffled=$.map(allElems,function(){var max,random=(max=allElems.length,Math.floor(Math.random()*max)),randEl=$(allElems[random]).clone(!0)[0];return allElems.splice(random,1),randEl});return this.each(function(i){$(this).replaceWith($(shuffled[i]))}),$(shuffled)},mpboxes.shuffle()}(jQuery);
