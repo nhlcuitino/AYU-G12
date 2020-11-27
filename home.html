@@ -14,11 +14,11 @@
 	<body>
 
 		
-		<nav class="container nn-menu-home" >
+		<header class="container nn-menu-home" >
 	<ul class="row nn-ul justify-content-end" style="">
 		
 		<li class="col-5">
-			<a href="#" class="ubicacion linkActivo" aria-label="Mi ubicacion - Las heras 2408">
+			<a href="#" class="ubicacion linkActivo" aria-label="Mi ubicacion, Las heras 2408">
 				Las Heras 2408
 			</a>
 		</li>
@@ -30,7 +30,8 @@
 			</a>
 		</li>
 	</ul>		 
-</nav>
+</header>
+
 
 		<main  role="main">	
 			<section class="container nn-contenedor altura" >
@@ -60,7 +61,7 @@
 				<div class="row  nn-puntaje">
 
 		<div class="col-6 puntos-titular"><p>Mis Eco-puntos</p></div>
-		<div class="col-6 puntos-cantidad"><p>500 Pts</p></div>
+		<div class="col-6 puntos-cantidad"><p>500 Puntos</p></div>
 </div>
 
 					<div class="row">
@@ -68,9 +69,9 @@
 			<h2>Categorías</h2>
 		</div>
 	</div>
-	<div class="row cards">
-		<div class="col-4 item-card" >
-		  <a href="cat_frutas_verduras_p01.html" >
+	<ul class="row cards">
+		<li class="col-4 item-card" >
+		  <a href="cat_frutas_verduras_p01.html" aria-label="Frutas y Verduras" >
 		  	<div class="card-categoria ctg-1">
 		  		<div class="card-img">
 		  			<img src="img/cards/frutas.png" style="width: 77px;" height="" width="" alt="">
@@ -80,8 +81,8 @@
 		  		</div>
 		  	</div>
 		  </a>		  
-		</div>
-		<div class="col-4 item-card" >
+		</li>
+		<li class="col-4 item-card" >
 		  <a href="" >
 		  	<div class="card-categoria ctg-2" >
 		  		<div class="card-img">
@@ -92,8 +93,8 @@
 			  	</div>
 		  	</div>
 		  </a>		  
-		</div>
-		<div class="col-4 item-card" >
+		</li>
+		<li class="col-4 item-card" >
 		  <a href="" >
 		  	<div class="card-categoria ctg-3">
 		  		<div class="card-img">
@@ -104,8 +105,8 @@
 			  	</div>
 		  	</div>
 		  </a>		  
-		</div>
-		<div class="col-4 item-card" >
+		</li>
+		<li class="col-4 item-card" >
 		  <a href="">
 		  	<div class="card-categoria ctg-4">
 		  		<div class="card-img">
@@ -116,8 +117,8 @@
 			  	</div>
 		  	</div>
 		  </a>		  
-		</div>
-		<div class="col-4 item-card" >
+		</li>
+		<li class="col-4 item-card" >
 		  <a href="">
 		  	<div class="card-categoria ctg-5">
 		  		<div class="card-img">
@@ -128,8 +129,8 @@
 			  	</div>
 		  	</div>
 		  </a>		  
-		</div>
-		<div class="col-4 item-card" >
+		</li>
+		<li class="col-4 item-card" >
 		  <a href="" >
 		  	<div class="card-categoria ctg-6">
 		  		<div class="card-img">
@@ -140,8 +141,8 @@
 			  	</div>
 		  	</div>
 		  </a>		  
-		</div>
-	</div>
+		</li>
+	</ul>
 
 
 
@@ -154,7 +155,7 @@
 
 		<ul class="carrousel">
 		<li class="item-carrusel-productores" >
-		  <a href="productor_perfil.html" >
+		  <a href="productor_perfil.html" aria-label="Estancia Gaby Machel frutas y Verduras">
 			<div class="" >
 		  		<img src="img/perfil/estancia_gaby_machel.png" height="" width="" alt="">
 		  		<div class="prod-name">
@@ -223,8 +224,7 @@
 					<a href="detalle_producto.html" id="pack-de-frutas-de-estación" class="linkActivo">
 						Pack de frutas de estación</a>
 					</h3>
-					<p><a href="#">450m - dietética mary </a>
-				</p>
+					<p>450m - dietética mary</p>
 			</div>
 			<div class="col-4 perfil-img">
 				<a href="productor_perfil.html" aria-label="Ver el perfil del vendedor Estancia gaby machel">
@@ -248,7 +248,7 @@
 		</div>	
 		<div class="row btn-precio">			
 				<div class="col-6 precio">
-					<p>$ 400 </p>
+					<p><span aria-hidden="true" >$</span> 400<span class="sr-only">Pesos</span> </p>
 				</div>
 				<div class="col-6 btn-detalle">
 					<a href="detalle_producto.html" aria-describedby="pack-de-frutas-de-estación">Ver detalle</a>
@@ -263,8 +263,7 @@
 					<a href="detalle_producto.html" id="bolsón-todo-verde" class="linkActivo">
 						Bolsón todo verde</a>
 					</h3>
-					<p><a href="#">450m </a>
-				</p>
+					<p>450m</p>
 			</div>
 			<div class="col-4 perfil-img">
 				<a href="" aria-label="Ver el perfil del vendedor Grafer">
@@ -288,7 +287,7 @@
 		</div>	
 		<div class="row btn-precio">			
 				<div class="col-6 precio">
-					<p>$ 350 </p>
+					<p><span aria-hidden="true" >$</span> 350<span class="sr-only">Pesos</span> </p>
 				</div>
 				<div class="col-6 btn-detalle">
 					<a href="detalle_producto.html" aria-describedby="bolsón-todo-verde">Ver detalle</a>
@@ -303,8 +302,7 @@
 					<a href="detalle_producto.html" id="mix-de-hortalizas" class="linkActivo">
 						Mix de hortalizas</a>
 					</h3>
-					<p><a href="#">450m - dietética mary </a>
-				</p>
+					<p>450m - dietética mary</p>
 			</div>
 			<div class="col-4 perfil-img">
 				<a href="productor_perfil.html" aria-label="Ver el perfil del vendedor Estancia gaby machel">
@@ -328,7 +326,7 @@
 		</div>	
 		<div class="row btn-precio">			
 				<div class="col-6 precio">
-					<p>$ 300 </p>
+					<p><span aria-hidden="true" >$</span> 300<span class="sr-only">Pesos</span> </p>
 				</div>
 				<div class="col-6 btn-detalle">
 					<a href="detalle_producto.html" aria-describedby="mix-de-hortalizas">Ver detalle</a>
@@ -343,8 +341,7 @@
 					<a href="detalle_producto.html" id="shampoo-sólido" class="linkActivo">
 						Shampoo sólido</a>
 					</h3>
-					<p><a href="#">350m - biopiel cosmética </a>
-				</p>
+					<p>350m - biopiel cosmética</p>
 			</div>
 			<div class="col-4 perfil-img">
 				<a href="" aria-label="Ver el perfil del vendedor Biopiel cosmética">
@@ -368,7 +365,7 @@
 		</div>	
 		<div class="row btn-precio">			
 				<div class="col-6 precio">
-					<p>$ 250 </p>
+					<p><span aria-hidden="true" >$</span> 250<span class="sr-only">Pesos</span> </p>
 				</div>
 				<div class="col-6 btn-detalle">
 					<a href="detalle_producto.html" aria-describedby="shampoo-sólido">Ver detalle</a>
@@ -383,8 +380,7 @@
 					<a href="detalle_producto.html" id="quesos" class="linkActivo">
 						Quesos</a>
 					</h3>
-					<p><a href="#">550m - la chacra </a>
-				</p>
+					<p>550m - la chacra</p>
 			</div>
 			<div class="col-4 perfil-img">
 				<a href="" aria-label="Ver el perfil del vendedor Lacteos la chacra">
@@ -408,7 +404,7 @@
 		</div>	
 		<div class="row btn-precio">			
 				<div class="col-6 precio">
-					<p>$ 550 </p>
+					<p><span aria-hidden="true" >$</span> 550<span class="sr-only">Pesos</span> </p>
 				</div>
 				<div class="col-6 btn-detalle">
 					<a href="detalle_producto.html" aria-describedby="quesos">Ver detalle</a>
@@ -423,7 +419,7 @@
 			</section>
 		</main>
 		
-<nav class="container nn-menu-bottom" >
+<nav class="container nn-menu-bottom" aria-label="Menú principal">
 	<ul class="row nn-ul-bottom" style="">
 		<li class="col-2.4">
 			<a href="home.html" aria-current="page" class="linkActivo">
